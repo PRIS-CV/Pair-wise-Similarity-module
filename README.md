@@ -21,17 +21,17 @@ Train
 * n_shot: number of labeled data in each class （1|5）.
 * train_aug: perform data augmentation or not during training.
 
-python ./train.py --dataset CUB  --model Conv4 --method protonet --n_shot 1 
-python ./train.py --dataset CUB  --model Conv4 --method protonet_PSM --n_shot 1
+python ./train.py --dataset CUB  --model Conv4 --method protonet --n_shot 1 <br> 
+python ./train.py --dataset CUB  --model Conv4 --method protonet_PSM --n_shot 1 
 
 Save features
 ------- 
-python ./save_features.py --dataset CUB  --model Conv4 --method protonet --n_shot 1 
+python ./save_features.py --dataset CUB  --model Conv4 --method protonet --n_shot 1 <br> 
 python ./save_features.py --dataset CUB  --model Conv4 --method protonet_PSM --n_shot 1
 
 Test
 ------- 
-python ./test.py --dataset CUB  --model Conv4 --method protonet --n_shot 1 
+python ./test.py --dataset CUB  --model Conv4 --method protonet --n_shot 1 <br> 
 python ./test.py --dataset CUB  --model Conv4 --method protonet_PSM --n_shot 1
 
 References
@@ -40,8 +40,8 @@ Our code is based on Chen's contribution. Specifically, except for our core desi
 
 Contact
 ------- 
-Thanks for your attention! If you have any suggestion or question, you can leave a message here or contact us directly:
+Thanks for your attention! If you have any suggestion or question, you can leave a message here or contact us directly:<br> 
 
-guoyurong@bupt.edu.cn
+guoyurong@bupt.edu.cn<br> 
 mazhanyu@bupt.edu.cn
 
