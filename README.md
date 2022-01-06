@@ -20,8 +20,8 @@ Dataset
 Train
 ------- 
 
-* method: relationnet|relationnet_PSM|protonet|protonet_PSM.
-* n_shot: number of labeled data in each class （1|5）.
+* method: relationnet | relationnet_PSM | protonet | protonet_PSM.
+* n_shot: number of labeled data in each class （1, 5）.
 * train_aug: perform data augmentation or not during training.
 
 python ./train.py --dataset CUB  --model Conv4 --method protonet --n_shot 1 <br> 
