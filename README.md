@@ -1,25 +1,25 @@
 # Pair-wise-Similarity-module
-====
+
 Code release for the paper "Learning Calibrated Class Centers for Few-shot Classification by Pair-wise Similarity"
 
 Requirements
 -------  
-*python=3.6
-*PyTorch=1.2+
-*torchvision=0.4.2
-*pillow=6.2.1
-*numpy=1.18.1
-*h5py=1.10.2
+* python=3.6
+* PyTorch=1.2+
+* torchvision=0.4.2
+* pillow=6.2.1
+* numpy=1.18.1
+* h5py=1.10.2
 Dataset
 ------- 
-*CUB-200-2011
+* CUB-200-2011
    Change directory to ./filelists/CUB
    run source ./download_CUB.sh
 Train
 ------- 
-*method: relationnet|relationnet_PSM|protonet|protonet_PSM.
-*n_shot: number of labeled data in each class （1|5）.
-*train_aug: perform data augmentation or not during training.
+* method: relationnet|relationnet_PSM|protonet|protonet_PSM.
+* n_shot: number of labeled data in each class （1|5）.
+* train_aug: perform data augmentation or not during training.
 
 python ./train.py --dataset CUB  --model Conv4 --method protonet --n_shot 1 
 python ./train.py --dataset CUB  --model Conv4 --method protonet_PSM --n_shot 1
