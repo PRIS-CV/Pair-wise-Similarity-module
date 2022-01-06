@@ -13,9 +13,9 @@ Requirements
 
 Dataset
 ------- 
-* CUB-200-2011
-   Change directory to ./filelists/CUB
-   run source ./download_CUB.sh
+* CUB-200-2011<br>
+   Change directory to ./filelists/CUB<br>
+   run source ./download_CUB.sh<br>
    
 Train
 ------- 
