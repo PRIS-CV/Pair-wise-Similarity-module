@@ -10,13 +10,16 @@ Requirements
 * pillow=6.2.1
 * numpy=1.18.1
 * h5py=1.10.2
+
 Dataset
 ------- 
 * CUB-200-2011
    Change directory to ./filelists/CUB
    run source ./download_CUB.sh
+   
 Train
 ------- 
+
 * method: relationnet|relationnet_PSM|protonet|protonet_PSM.
 * n_shot: number of labeled data in each class （1|5）.
 * train_aug: perform data augmentation or not during training.
