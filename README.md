@@ -46,5 +46,3 @@ Contact
 Thanks for your attention! If you have any suggestion or question, you can leave a message here or contact us directly:<br> 
 
 guoyurong@bupt.edu.cn<br> 
-mazhanyu@bupt.edu.cn
-
